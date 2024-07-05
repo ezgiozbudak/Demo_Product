@@ -18,7 +18,7 @@ namespace BusinessLayer.Concrete
             _productDal = productDal;
         }
 
-        public Product IGetById(int id)
+        public Product TGetById(int id)
         {
             return _productDal.GetById(id);
         }
